@@ -1,0 +1,128 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+
+.mobile-screen {
+    width: 350px;
+    max-width: 90%;
+    background-color: #ff5252;
+    border-radius: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    padding-bottom: 30px;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+.header {
+    padding: 60px 0 40px;
+    color: white;
+}
+
+.logo-heart {
+    font-size: 80px;
+    line-height: 1;
+    margin-bottom: 5px;
+}
+
+.logo-text {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    letter-spacing: 5px;
+}
+
+/
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.tab-button {
+    background: none;
+    border: 1px solid white;
+    color: white;
+    padding: 8px 30px;
+    margin: 0 5px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.tab-button.active {
+    background-color: white;
+    color: #ff5252;
+}
+
+
+.form {
+    padding: 0 20px;
+}
+
+.form input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+    outline: none;
+}
+
+
+.form input::placeholder {
+    color: #999;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.forgot-password {
+    display: block;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    text-align: right;
+    padding-right: 15px;
+}
+
+.main-button {
+    width: 100%;
+    padding: 15px 0;
+    background-color: white;
+    color: #ff5252;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.register-text {
+    font-size: 14px;
+    color: white;
+    margin: 0;
+}
+
+.register-link {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
